@@ -1,6 +1,6 @@
 import React from 'react';
 import { LinkContainer } from 'react-router-bootstrap';
-import { Nav, Navbar, Container } from 'react-bootstrap';
+import { Nav, Navbar, Container, Image } from 'react-bootstrap';
 
 const Header = () => {
   return (
@@ -9,7 +9,7 @@ const Header = () => {
         <Container>
           <LinkContainer to="/">
             <Navbar.Brand>
-              {/* <img src="../../public/images/logo.png" alt="site logo"></img> */}
+              {/* <Image src="../../public/images/logo.png" alt="site logo" /> */}
               Trattoria Di Nando
             </Navbar.Brand>
           </LinkContainer>
@@ -18,7 +18,7 @@ const Header = () => {
             <Nav className="ml-auto">
               <LinkContainer to="/cart">
                 <Nav.Link>
-                  <i className="fas fa-shopping-cart"></i>Carrinho
+                  <i className="fas fa-shopping-cart"></i>Pedido
                 </Nav.Link>
               </LinkContainer>
               <LinkContainer to="/login">
