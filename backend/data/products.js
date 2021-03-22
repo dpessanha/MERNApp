@@ -1,0 +1,108 @@
+const products = [
+  {
+    _id: '1',
+    name: 'Canelone',
+    image: '/images/canelone.jpg',
+    description:
+      'Como pode sugerir o nome, o Canelone (Cannelloni), é um cilindro (ou cano) que oide ser preenchido com os mais diversos recheios. Diferente do Rondelli, sua massa é um pouco mais fina e não parece um rocambole quando partido. Assim como outras massas, para deixá-lo ainda mais apetitoso e auxiliar no cozimento, acrescentamos molho ao levá-lo ao forno, e o toque final ao servir pode ser dado ao adicionar queijo parmesão ralado, orégano, alho picado ou bacon em cubinhos. Ficou com água na boca só de ler a descrição? Peça e conte-nos o que achou!',
+    brand: 'Trattoria Di Nando',
+    category: 'Massas',
+    price: 89.99,
+    countInStock: 10,
+    rating: 4.5,
+    numReviews: 12,
+  },
+  {
+    _id: '2',
+    name: 'Lasanha',
+    image: '/images/lasagna.jpg',
+    description:
+      'Esse prato que praticamente dispensa apresentações, é adorado por pessoas (e até animais, não é, Garfield?) do mundo inteiro, incluindo o nosso Brasil. Diferente do Rondelli e do Cannelloni, sua massa fina é usada esticada, intercalando camadas de recheio e massa, finalizada com o molho e a cobertura que desejar. Sentiu o cheiro daí? Peça e conte-nos o que achou!',
+    brand: 'Trattoria Di Nando',
+    category: 'Massas',
+    price: 599.99,
+    countInStock: 7,
+    rating: 4.0,
+    numReviews: 8,
+  },
+  {
+    _id: '3',
+    name: 'Rondelli',
+    image: '/images/rondelli.jpeg',
+    description:
+      'A grosso modo, podemos dizer que o Rondelli é um rocambole de massa que pode conter os mais variados recheios, de acordo com o gosto de cada um. Para deixá-lo ainda mais apetitoso e auxiliar no cozimento, acrescentamos molho ao levá-lo ao forno. O toque final ao servir pode incluir queijo parmesão ralado, orégano, alho picado ou bacon em cubinhos. Não aguenta mais ficar só lendo? Peça e conte-nos o que achou!',
+    brand: 'Trattoria Di Nando',
+    category: 'Massas',
+    price: 929.99,
+    countInStock: 5,
+    rating: 3,
+    numReviews: 12,
+  },
+  {
+    _id: '4',
+    name: 'Fettuccine',
+    image: '/images/fettuccine.jpg',
+    description:
+      'Fettuccine, literalmente "pequenas fitas" em Italiano, é um tipo de massa popular na culinária romana e toscana. É um macarrão achatado feito de farinha e ovos, mais largo ou similar ao tagliatelle típico de Bologna.Para deixá-lo ainda mais apetitoso e auxiliar no cozimento, acrescentamos molho ao levá-lo ao forno. O toque final ao servir pode incluir queijo parmesão ralado, orégano, alho picado ou bacon em cubinhos. Viu esse cheiro? Peça e conte-nos o que achou!',
+    brand: 'Trattoria Di Nando',
+    category: 'Massas',
+    price: 399.99,
+    countInStock: 11,
+    rating: 5,
+    numReviews: 12,
+  },
+  {
+    _id: '5',
+    name: 'Coca-Cola 2 litros',
+    image: '/images/coca-cola.jpg',
+    description:
+      'Eu não sei você, mas só de olhar a imagem, tenho sede... Imagina ela gelada para combinar com a massa que você pediu?',
+    brand: 'Coca-Cola',
+    category: 'Refrigerantes',
+    price: 49.99,
+    countInStock: 7,
+    rating: 3.5,
+    numReviews: 10,
+  },
+  {
+    _id: '6',
+    name: 'Coca-Cola lata (350ml)',
+    image: '/images/coca-lata.jpg',
+    description:
+      'Satisfação em dose individual. Combina com qualquer massa que você pedir! ;)',
+    brand: 'Coca-Cola',
+    category: 'Refrigerantes',
+    price: 29.99,
+    countInStock: 0,
+    rating: 4,
+    numReviews: 12,
+  },
+  {
+    _id: '7',
+    name: 'Pepsi 2 litros',
+    image: '/images/pepsi.png',
+    description:
+      'Tem gente que é time Pepsi, tem gente que é time Coca. O que importa é que, quando a massa chega na mesa, ela esteja gelada!',
+    brand: 'Ambev',
+    category: 'Refrigerantes',
+    price: 29.99,
+    countInStock: 0,
+    rating: 4,
+    numReviews: 12,
+  },
+  {
+    _id: '8',
+    name: 'Fanta Uva 2 litros',
+    image: '/images/fanta-uva.jpg',
+    description:
+      'Ah, uma Fanta Uva geladinha com a massa que escolhi. Não quero guerra com ninguém! ',
+    brand: 'Coca-Cola',
+    category: 'Refrigerantes',
+    price: 29.99,
+    countInStock: 0,
+    rating: 4,
+    numReviews: 12,
+  },
+];
+
+module.exports = products;
