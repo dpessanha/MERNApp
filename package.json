@@ -9,7 +9,10 @@
   "description": "A shop app from Trattoria Di Nando, Silva Jardim - RJ/Brazil.",
   "main": "server.js",
   "scripts": {
-    "start": "node backend/server"
+    "start": "node backend/server",
+    "server": "nodemon backend/server",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",
