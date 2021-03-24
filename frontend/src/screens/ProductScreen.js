@@ -76,7 +76,7 @@ const ProductScreen = ({ match }) => {
                   type="button"
                   disabled={product.countInStock === 0}
                 >
-                  Adicionar ao pedido
+                  Adicionar
                 </Button>
               </ListGroupItem>
             </ListGroup>

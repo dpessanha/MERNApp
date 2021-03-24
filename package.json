@@ -9,6 +9,7 @@
   "version": "1.0.0",
   "description": "A shop app from Trattoria Di Nando, Silva Jardim - RJ/Brazil.",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "start": "node backend/server",
     "server": "nodemon backend/server",
