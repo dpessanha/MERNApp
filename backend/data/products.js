@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: '1',
     name: 'Canelone',
     image: '/images/canelone.jpg',
     description:
@@ -13,7 +12,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '2',
     name: 'Lasanha',
     image: '/images/lasagna.jpg',
     description:
@@ -26,7 +24,6 @@ const products = [
     numReviews: 8,
   },
   {
-    _id: '3',
     name: 'Rondelli',
     image: '/images/rondelli.jpeg',
     description:
@@ -39,7 +36,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '4',
     name: 'Fettuccine',
     image: '/images/fettuccine.jpg',
     description:
@@ -52,7 +48,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '5',
     name: 'Coca-Cola 2 litros',
     image: '/images/coca-cola.jpg',
     description:
@@ -65,7 +60,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '6',
     name: 'Coca-Cola lata (350ml)',
     image: '/images/coca-lata.jpg',
     description:
@@ -78,7 +72,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '7',
     name: 'Pepsi 2 litros',
     image: '/images/pepsi.png',
     description:
@@ -91,7 +84,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '8',
     name: 'Fanta Uva 2 litros',
     image: '/images/fanta-uva.jpg',
     description:
