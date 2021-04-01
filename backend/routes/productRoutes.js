@@ -28,7 +28,8 @@ router.get(
     if (product) {
       res.json(product);
     } else {
-      res.status(404).json({ message: 'Produto não encontrado =(' });
+      res.status(404);
+      throw new Error(`Produto não encontrado! =(`);
     }
   })
 );
