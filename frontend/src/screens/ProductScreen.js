@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { React, useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import {
@@ -17,9 +17,10 @@ import Loader from '../components/Loader';
 import { listProductDetails } from '../actions/productActions';
 
 const ProductScreen = ({ history, match }) => {
-  const [qty, setQty] = useState(0);
-
+  const [qty, setQty] = useState(1);
   const dispatch = useDispatch();
+  const cart = useSelector(state => state.cart);
+  const { cartItems } = cart;
   const productDetails = useSelector(state => state.productDetails);
   const { loading, error, product } = productDetails;
   useEffect(() => {
